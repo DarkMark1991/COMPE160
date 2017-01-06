@@ -5,7 +5,8 @@ The screen displays a prompt (for example simply “left”, or something like �
 The duration of the game is predetermined (30 seconds for example). The score is calculated according to how many tasks the user has completed and how fast they did it.
 
 The riddles are stored in “riddles.in” file which will follow a specific format: The first line contains only the number of riddles. All the other lines will look like this:
-```<sequence_size> <sequence separated by spaces> <string description of the riddle>
+```
+<sequence_size> <sequence separated by spaces> <string description of the riddle>
 ```
 
 After reading sequence size, the sequence is read one by one into sequence array and then the riddle text is read until the end of line.
