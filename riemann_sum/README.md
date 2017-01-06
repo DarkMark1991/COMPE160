@@ -1,4 +1,4 @@
-## COMPE160 - Lab 6 part 2 - Numerical Analysis Algorithm 
+## Numerical Analysis Algorithm 
 
 ### Method:
 The chosen method is Riemann sum algorithm, specifically the midpoint variant.
