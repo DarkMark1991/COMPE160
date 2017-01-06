@@ -21,6 +21,7 @@ This function has local extrema at the given points:
 ![alt text](http://i.imgur.com/yn3ZUHD.png "min: x ~= -0.101293, max: x ~= -0.371789")
 
 ### Pseudocode: 
+```
 BEGIN MAIN
 	FOR EACH test interval 
 RIEMANN_CYCLE(f, interval, epsilon, maxIteration);
@@ -41,3 +42,4 @@ BEGIN RIEMANN(f, interval, N)
 		sum += delta * f(midPoint);
 	RETURN sum;
 END RIEMANN
+```
